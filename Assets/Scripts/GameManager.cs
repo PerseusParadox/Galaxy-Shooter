@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour {
         //hide main menu
         //Spawn Player
         //game over is false
-        if ( gameOver ) {
+        if ( gameOver == true ) {
             if ( Input.GetKeyDown (KeyCode.Space) ) {
                 _uimanager.HideTitleScreen ();
                 Instantiate (player , Vector3.zero , Quaternion.identity);
@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour {
                 StartCoroutine (spawnManager.PowerupsSpawnRoutine());
                 StartCoroutine (spawnManager.SpawnEnemy ());
             }
-        }
+        } 
         
     }
 }

@@ -25,10 +25,13 @@ public class Player : MonoBehaviour {
     [SerializeField]
     private AudioSource _audioSource;
     private UIManager uIManager;
+    [SerializeField]
+    private GameManager gameManager;
     private void Start () {
+        gameManager = GameObject.Find ("GameManager").GetComponent<GameManager> ();
         _audioSource = GetComponent<AudioSource> ();
         uIManager = GameObject.Find ("Canvas").GetComponent<UIManager> ();
-        if ( uIManager!= null ) {
+        if ( uIManager != null ) {
             uIManager.UpdateLives (NumOfLives);
         }
     }
@@ -87,7 +90,6 @@ public class Player : MonoBehaviour {
         }
     }
     void Die () {
-
         uIManager.ShowGameOverScreen ();
         Instantiate (explosion , transform.position , Quaternion.identity);
         Destroy (this.gameObject);
@@ -105,22 +107,23 @@ public class Player : MonoBehaviour {
 
     }
     public void SpeedBoostOn () {
-        speed = 20f;
+        _fireRate /= 2;
         StartCoroutine (SpeedBoostDown ());
 
     }
     private IEnumerator SpeedBoostDown () {
         yield return new WaitForSeconds (10f);
-        speed = 10f;
+        _fireRate *= 2;
     }
     public int LoseLife () {
         if ( shieldActive ) {
-            
+
             shieldActive = false;
             return 0;
         } else {
             NumOfLives--;
             uIManager.UpdateLives (NumOfLives);
+            
             return 0;
         }
 

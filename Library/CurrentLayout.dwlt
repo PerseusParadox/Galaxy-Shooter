@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 5}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 0
     width: 249
     height: 645
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 132
+  controlID: 100
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -181,10 +181,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 645
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 711, y: 471}
+  m_MaxSize: {x: 18006, y: 14021}
   vertical: 0
-  controlID: 67
+  controlID: 80
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 68
+  controlID: 81
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -254,8 +254,8 @@ MonoBehaviour:
     y: 221
     width: 840
     height: 424
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -88976
+  m_LastSelectedObjectID: 16038
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -342,12 +342,14 @@ MonoBehaviour:
     width: 275
     height: 624
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/collab
+  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub/#/cloud-menu
   m_GlobalObjectTypeName: 
   m_RegisteredViewURLs:
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/collab
+  - https://public-cdn.cloud.unity3d.com/editor/production/cloud/analytics
   m_RegisteredViewInstances:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
 --- !u!114 &15
@@ -378,7 +380,7 @@ MonoBehaviour:
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 05000000000000000800000010000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 0500000000000000080000000f000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
@@ -456,9 +458,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 70a4feff
-    m_LastClickedID: -88976
-    m_ExpandedIDs: d4fbffff000000002a140000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 80daffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -508,14 +510,14 @@ MonoBehaviour:
     height: 200
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 5783.417090320238
+  lastFramingTime: 2827.669235696514
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 342, y: 152, z: 0}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 342, y: 152, z: 0}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -547,9 +549,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 302.60748
+    m_Target: 11.896935
     speed: 2
-    m_Value: 302.60748
+    m_Value: 11.896935
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -560,7 +562,7 @@ MonoBehaviour:
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
+  m_ViewIsLockedToObject: 1
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -705,14 +707,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Prefabs
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Omar\Documents\Galaxy Shooter
+  m_LastProjectPath: C:\Users\Omar\Documents\Galaxy-Shooter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 159}
-    m_SelectedIDs: 7c090000
-    m_LastClickedID: 2428
-    m_ExpandedIDs: 000000005c0900002a0b00006c120000b6350000b835000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: d83b0000
+    m_LastClickedID: 15320
+    m_ExpandedIDs: 00000000d03b0000303c00000a3e00001a3f00001c3f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -740,7 +742,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005c0900002a0b00006c120000b6350000b8350000
+    m_ExpandedIDs: 00000000d03b0000303c00000a3e00001a3f00001c3f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -846,9 +848,9 @@ MonoBehaviour:
     height: 624
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
+  m_InstanceIDsLockedBeforeSerialization: a63e0000
   m_LockTracker:
-    m_IsLocked: 0
+    m_IsLocked: 1
   m_PreviewResizer:
     m_CachedPref: 260
     m_ControlHash: -371814159
